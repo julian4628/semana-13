@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARRAYS2</title>
+</head>
+<body>
+    <center>
+    <h1>TALLER CAPTURA Y LECTURA ARRAYS</h1>
+    <h2>DATOS INGRESADOS POR TECLADO / USUARIO</h2>
+    <br><br>
+    <script>
+        let datos=new Array();
+        let num=parseInt(prompt("INGRESE TOPE MAXIMO A GUARDER")); //LONGITUD
+        //CICLO entrada
+        for(i=0;i<num;i++){
+            datos[i]=prompt("INGRESE VALOR A GUARDAR");
+        }
+        //CICLO salida
+        for(i=0;i<num;i++){
+            document.write("***************************************************************************"+"<br>");
+            document.write("indice..."+i+":"+datos[i]+"<br>");
+            console.log(datos[i]);
+        }
+
+
+
+    
+    </script>
+</center>
+</body>
+</html>
